@@ -1,0 +1,258 @@
+.modal {
+  opacity: 0; 
+  visibility: hidden;
+  position: fixed;
+  z-index: 199;  
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0; 
+  width: 100% ;
+  height: 100%;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  background-color: rgba($primary, 0.9);
+  &--visible {
+    opacity: 1;
+    visibility: visible;
+  } 
+  &__label {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+  } 
+  &__input-group {
+    margin-bottom: 6px;
+    padding-bottom: 0;
+  }
+  &__policy-checkbox {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+  }
+  &__dialog {
+    position: relative;
+    max-width: 36.36rem;
+    // background: $dark url('../img/bg-lines.svg') no-repeat center;
+    padding: 2.357rem 3.5rem 1.92rem ; 
+    // color: $light;
+  } 
+  &__close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 28px; 
+    height: 28px; 
+    background: transparent url('../img/close.svg');
+    border: none;
+    outline: none;
+    margin: 0.78rem;
+    cursor: pointer;
+  }  
+  &__title {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 2.428rem; 
+    font-family: 'Lato', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.85rem;
+    font-weight: normal;
+  } 
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }  
+  &__input {
+    &:focus{
+      outline: none;
+    }   
+  }
+    &-group {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 2.482rem;
+      outline: none;
+    } 
+      &:focus {
+        outline: none;
+      } 
+      &--last {
+        margin-bottom: 0;
+      }  
+    &:last-of-type {
+      margin-bottom: 0.4rem;
+    }     
+  .modal__input-mail {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  } 
+  &__policy {
+    margin-bottom: 2.7rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0;
+    max-width: 371px;
+  } 
+  &__button {
+    align-self: flex-end; 
+    font-size: 0.92rem; 
+    line-height: 1.285rem;
+    font-weight: 500;
+    width: 15.21rem;
+    height: 3.64rem;
+    color: #fff;
+    border: 1px solid #fff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 371px;
+    &:hover {
+      color: $primary;
+    }
+  }
+    
+input {
+  &.invalid {
+    border-bottom: 2px solid tomato;
+  }
+  
+  &:focus {
+    border-bottom: 2px solid tomato;
+  }
+    
+&.invalid__control {
+  border-bottom: 2px solid tomato;
+}  
+  &:focus {
+    border-bottom: 2px solid tomato;
+  }
+    
+&.invalid__footer {
+  border-bottom: 2px solid tomato;
+}
+  
+  &:focus {
+    border-bottom: 2px solid tomato;
+  }
+    
+}
+ 
+}
+input {
+  outline: none;
+  border: none;
+}
+.policy 
+  {
+    &__checkbox 
+    {
+    //   opacity: 0;
+    // visibility: hidden ;
+    &:checked {
+      background-color: #fff;
+    }
+        
+    }
+  }
+  .modal__policy {
+    position: relative;
+  }
+.policy__Checkbox-error.invalid {
+  position: absolute;
+}
+
+.vk {
+  opacity: 0;
+  visibility: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba($primary, 0.6);
+  z-index: 1000;
+  &--visible {
+    opacity: 1;
+    visibility: visible;
+  }
+    
+  &--hidden {
+    opacity: 0;
+    visibility: hidden;
+  }  
+  &__modal {
+    position: relative;
+    max-width: 40rem;
+    padding: 2.357rem 3.5rem 1.928rem;
+    color: #fff;
+    background: $primary; 
+    z-index: 900;
+
+  }
+    
+  &__title {
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-weight: bold ;
+    line-height: 1.2;
+
+  }
+    
+  &__text {
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    font-weight: normal;
+  }
+ 
+  
+    
+}
+.vk {
+  &__close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 28px;
+    height: 28px;
+    margin: 12px;
+    background: transparent url('../img/close.svg') no-repeat center / 80%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    &:active {
+      outline: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+}
+.thanks__text {
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  line-height: 1;
+  font-weight: normal;
+  margin-bottom: 20px;
+  a.thanks__link {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 30px;
+    transition: all 0.4s;
+    &:hover {
+      color: grey;
+    }
+  }
+} 
+  

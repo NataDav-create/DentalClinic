@@ -1,0 +1,103 @@
+.description-section {
+  padding: 120px 0 75px;
+  text-align: left;
+  &__wrapper {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  &__title {
+    margin-bottom: 23px;
+  }
+  &__text {  
+    max-width: 991px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    a {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      color: #000000;
+      transition: all 0.4s;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  &__subtitle {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+  .description__list {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    .description__link {
+      position: relative;
+      font-family: 'Lato', sans-serif;
+      padding-left: 25px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      &:before {
+        position: absolute;
+        content: '';
+        background-image: url('../img/services/check.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        left: 0;
+        top: 60%;
+        transform: translateY(-50%);
+        height: 15px;
+        width: 15px;
+      }
+    }
+  }
+  span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+  }
+}
+ol {
+  list-style: none;
+  padding-left: 0;
+  li {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+.description__link--back {
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #A3843B;
+  cursor: pointer;
+  transition: all 0.4s;
+  &:hover {
+    color: rgb(121, 89, 15);
+  }
+}
+.description__img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}

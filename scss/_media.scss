@@ -1,0 +1,1094 @@
+@media screen and (max-width: 1416px) {
+  .about-descr__section {
+    padding: 100px 20px 70px;
+  }
+
+  .doctors {
+    padding: 100px 0px;
+  }
+
+  .about {
+    margin-top: 95vh;
+  }
+
+  .map-section {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 1264px) {
+  .form-block__wrapper {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .hero {
+    background-position: center;
+  }
+
+  .about-descr__section {
+    padding: 80px 10px 70px;
+  }
+
+  .implants-descr {
+    padding: 80px 10px;
+  }
+
+  .about-page__title {
+    margin-bottom: 70px;
+  }
+
+  .about-descr__item {
+    justify-content: center;
+  }
+
+  .about-descr__img {
+    width: 400px;
+    height: 300px;
+
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  .doctor {
+    padding: 80px 0 70px;
+  }
+
+  .about-descr__text {
+    max-width: 400px;
+    margin-right: 13px;
+    margin-left: 13px;
+  }
+
+  .description-section {
+    padding: 80px 0 70px;
+    text-align: left;
+  }
+
+  .service-section {
+    padding: 80px 30px 70px;
+  }
+
+  .description__img {
+    margin-bottom: 0;
+
+    img {
+      object-fit: cover;
+      max-width: 450px;
+      height: 300px;
+    }
+  }
+
+  .doctors {
+    padding: 70px 0px;
+  }
+
+  .hours-section {
+    padding: 70px 0;
+  }
+
+  .about {
+    margin-top: 90vh;
+  }
+
+  .services {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+
+  .emergency {
+    padding: 70px 0 30px 30px;
+  }
+
+  .map-section {
+    padding-top: 80px;
+  }
+
+  .map-section .map-descr {
+    margin-bottom: 50px;
+  }
+
+  .services-descr__section {
+    padding: 80px 0px;
+  }
+}
+
+// @media screen and (max-width: 1029px) {
+//   .services-wrapper {
+//     justify-content: center;
+//   }
+// }
+@media screen and (max-width: 1019px) {
+
+  .services-item {
+    width: 280px;
+    min-height: 350px;
+  }
+
+  .services-item__img {
+    width: 220px;
+    height: 230px;
+
+    img {
+      width: 220px;
+      height: 230px;
+    }
+  }
+
+  .services-item__name {
+    width: 280px;
+  }
+
+  .services-wrapper {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 1015px) {
+  .service-section__img {
+    width: 450px;
+    height: 300px;
+
+    img {
+      width: 450px;
+      height: 300px;
+    }
+  }
+}
+
+@media screen and (max-width: 952px) {
+  .doctor-description {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 943px) {
+  .service-description__item {
+    width: 300px;
+    padding-left: 20px;
+  }
+
+  .service-section__img {
+    width: 350px;
+    height: 200px;
+
+    img {
+      width: 350px;
+      height: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .footer-col__list {
+    margin-right: 15px;
+  }
+
+  .footer-col {
+    margin-left: 10px;
+  }
+
+  .about-img {
+    width: 400px;
+    height: 300px;
+
+    img {
+      width: 400px;
+      height: 300px;
+    }
+  }
+
+  .thanks__title {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 869px) {
+  .doctors__wrapper {
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .about-descr__item {
+    margin-bottom: 70px;
+  }
+
+  .about-descr__img {
+    max-width: 300px;
+    height: 250px;
+    width: 100%;
+
+    img {
+      max-width: 300px;
+      width: 100%;
+      height: 250px;
+    }
+  }
+
+  .about-descr__text {
+    max-width: 350px;
+  }
+
+  .services {
+    padding-bottom: 50px;
+  }
+
+  .emergency {
+    padding: 40px 0 30px 30px;
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .top-menu {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media screen and (max-width: 796px) {
+  .footer__inner {
+    flex-wrap: wrap;
+  }
+
+  .footer-col__address {
+    order: 0;
+    flex-basis: 48%;
+    align-items: center;
+
+    .footer__info-mail {
+      order: 0;
+    }
+
+    .footer__info-phone {
+      order: 1;
+    }
+
+    .footer__info-address {
+      order: 2;
+    }
+  }
+
+  .footer-col__menu--info {
+    order: 1;
+    flex-basis: 48%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-col__menu--services {
+    order: 2;
+    flex-basis: 70%;
+    text-align: center;
+  }
+
+  .footer-col__title {
+    text-align: center;
+  }
+
+  .service-section {
+    padding: 80px 0px 70px;
+  }
+
+  .description__img {
+    width: 350px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: auto;
+    margin-left: auto;
+
+    img {
+      width: 350px;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+
+  .description-section {
+    padding: 80px 0 50px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .map-section .map-title {
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 739px) {
+  .doctor__img {
+    width: 280px;
+    height: 300px;
+
+    img {
+      width: 280px;
+      height: 300px;
+    }
+  }
+
+  .doctor-inner {
+    flex-wrap: wrap;
+  }
+
+  .doctor-inner__text {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+
+  .about-title {
+    margin-bottom: 40px;
+  }
+
+  .about-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .about-img {
+    order: 0;
+  }
+
+  .about-descr {
+    order: 1;
+    margin-right: 0;
+    flex-basis: 100%;
+    width: 100%;
+  }
+
+  .about-descr__text--hero {
+    max-width: 100%;
+  }
+
+  .emergency-content__title {
+    font-size: 20px;
+  }
+
+  .emergency-content__descr {
+    font-size: 18px;
+  }
+
+  .emergency {
+    padding: 40px 0 30px 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .about-page__title {
+    margin-bottom: 40px;
+  }
+
+  .about-descr__item {
+    margin-bottom: 40px;
+  }
+
+  .service-section__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .service-section-img {
+    flex-basis: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-description {
+    margin-top: 40px;
+  }
+
+  .service-description__item {
+    width: 350px;
+  }
+
+  .emergency-content__descr {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .about-descr__item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .about-descr__text-wrapper {
+    order: 1;
+  }
+
+  .about-descr__text {
+    max-width: 500px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .about-descr__img {
+    max-width: 500px;
+    order: 0;
+
+    img {
+      max-width: 500px;
+    }
+  }
+
+  .doctor__wrapper {
+    flex-wrap: wrap;
+  }
+
+  .doctor-img {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .doctor__title {
+    text-align: center;
+  }
+
+  .doctor-description {
+    margin-top: 30px;
+    flex-basis: 100%;
+    align-items: center;
+  }
+
+  .doctor-inner__text .doctor-text__title {
+    text-align: center;
+  }
+
+  .doctor-inner__text {
+    text-align: center;
+  }
+
+  .doctor-btn {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .menu {
+    display: none;
+  }
+
+  .header__contacts {
+    display: none;
+  }
+
+  .header-btn {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .header__logo {
+    order: 0;
+    // margin-left: 30px;
+    // margin-right: auto;
+  }
+
+  .btn {
+    order: 1;
+    margin-right: auto;
+    margin-left: 60px;
+  }
+
+  .doctor-btn {
+    margin-left: 0;
+    margin-left: auto;
+  }
+
+  .btn-emergency {
+    margin-left: 0;
+  }
+
+  .about {
+    margin-top: 94vh;
+  }
+
+  .hero-text {
+    text-align: center;
+    // color: #000;
+  }
+
+  .hero-text h1 {
+    font-weight: bold;
+  }
+
+  .emergency-content__descr {
+    max-width: 320px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    margin-left: 40px;
+  }
+
+  .about-page {
+    height: 600px;
+  }
+
+  .doctor-btn {
+    margin-left: 0;
+    margin-left: auto;
+  }
+
+  .btn-emergency {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .hours-section__text span {
+    max-width: 120px;
+    font-size: 18px;
+  }
+
+  .description-section__wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .implants-page {
+    height: 600px;
+  }
+
+  .invisa-page {
+    height: 600px;
+  }
+
+  .emergency-content__title {
+    text-align: center;
+  }
+
+  .emergency-content {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .emergency {
+    padding: 0px 0 30px 0px;
+    background-position: top 50px right;
+    background-size: 60%;
+  }
+
+  .emergency-content__descr {
+    margin-bottom: 0;
+  }
+
+  .services-page {
+    height: 600px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .about-descr__section {
+    padding: 60px 10px 50px;
+  }
+
+  .implants-descr {
+    padding: 60px 10px;
+  }
+
+  .title h2 {
+    font-size: 25px;
+  }
+
+  .about-descr__img {
+    max-width: 400px;
+
+    img {
+      max-width: 400px;
+    }
+  }
+
+  .about-descr__text {
+    max-width: 400px;
+  }
+
+  .description-section {
+    padding: 60px 0 50px;
+  }
+
+  .service-description__link {
+    font-size: 18px;
+  }
+
+  .service-section {
+    padding: 60px 0px 60px;
+  }
+
+  .description__img {
+    margin-bottom: 0;
+  }
+
+  .doctor {
+    padding: 60px 0 50px;
+  }
+
+  .doctors {
+    padding: 60px 0px;
+  }
+
+  .doctors__title {
+    margin-bottom: 30px;
+  }
+
+  .about-descr__text--hero {
+    max-width: 100%;
+  }
+
+  .title .title-descr {
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .services-title {
+    margin-bottom: 40px;
+  }
+
+  .map-section .map-title {
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 531px) {
+  .btn {
+    margin-left: 30px;
+  }
+
+  .btn-emergency {
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .modal__dialog {
+    max-width: 28rem;
+  }
+
+  .modal__title {
+    margin-bottom: 1.7rem;
+  }
+
+  .form .modal__input-group {
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .form__input {
+    width: 300px;
+  }
+
+  .form__area {
+    width: 300px;
+  }
+
+  .modal__button {
+    width: 300px;
+  }
+
+  .modal__policy {
+    max-width: 300px;
+    width: 100%;
+    margin-bottom: 1.2rem;
+  }
+
+  .modal__policy-checkbox {
+    width: 300px;
+    width: 100%;
+
+  }
+
+  .form-block__wrapper .form-name {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .form-button {
+    max-width: 300px;
+  }
+
+  .doctor-btn {
+    margin-left: 0;
+    margin-left: auto;
+  }
+
+  .doctor-description .doctor-text {
+    text-align: center;
+  }
+
+  .title .title-descr {
+    padding-left: 0;
+    padding-right: 0;
+
+    &:before {
+      display: none;
+    }
+
+    &:after {
+      display: none;
+    }
+  }
+
+  .thanks__content {
+    text-align: center;
+    // max-width: 410px;
+  }
+
+  .thanks__page-text {
+    text-align: center;
+  }
+
+  .about.about-index {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 511px) {
+  .btn {
+    margin-top: 45px;
+    margin-right: 0;
+  }
+
+  .doctor-btn {
+    margin-right: auto;
+    margin-top: 0;
+  }
+
+  .btn-emergency {
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .emergency {
+    background-image: none;
+  }
+
+  .emergency-content {
+    text-align: center;
+    align-items: center;
+  }
+
+  .emergency-content__descr {
+    max-width: 100%;
+  }
+
+  .doctor-description .doctor-text {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .footer-col__address {
+    flex-basis: 100%;
+  }
+
+  .footer-col__menu--info {
+    flex-basis: 100%;
+  }
+
+  .footer-col__menu--services {
+    flex-basis: 100%;
+  }
+
+  .contacts-section__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .contacts__inner {
+    flex-basis: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .contacts-section__title {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .map-wrapper__contacts {
+    flex-basis: 100%;
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 491px) {
+  .map-section .map-title {
+    max-width: 400px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .about-descr__img {
+    max-width: 300px;
+    height: 200px;
+
+    img {
+      max-width: 300px;
+      height: 200px;
+    }
+  }
+
+  .about-descr__text {
+    max-width: 300px;
+    font-size: 14px;
+  }
+
+  .description-section__text {
+    font-size: 18px;
+  }
+
+  .description__link--back {
+    font-size: 18px;
+  }
+
+  .description__img {
+    margin-top: 0;
+    width: 300px;
+    height: 250px;
+
+    img {
+      width: 300px;
+      height: 250px;
+    }
+  }
+
+  ol li {
+    font-size: 18px;
+  }
+
+  .description-section__subtitle {
+    margin-bottom: 0;
+  }
+
+  .footer-col__menu--service {
+    flex-basis: 100%;
+  }
+
+  .about-descr__text--hero {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 439px) {
+  .services-page {
+    height: 500px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .doctor-btn {
+    display: block;
+  }
+
+  .btn-emergency {
+    display: block;
+    margin-top: 15px;
+  }
+
+  .doctor__title .doctor-descr {
+    font-size: 20px;
+  }
+
+  .header-btn {
+    margin-top: 45px;
+  }
+
+  .about-page {
+    height: 500px;
+  }
+
+  .invisa-page {
+    height: 500px;
+  }
+
+  .description-section__wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .service-section__img {
+    width: 300px;
+    height: 200px;
+
+    img {
+      width: 300px;
+    }
+  }
+
+  .service-description__item {
+    width: 300px;
+  }
+
+  .implants-page {
+    height: 500px;
+  }
+
+  .hero-text h1 {
+    font-size: 28px;
+  }
+
+  .hero-text .hero-subtitle {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .hours-section__text span {
+    max-width: 90px;
+    font-size: 15px;
+  }
+
+  .about-img--hero {
+    width: 300px;
+    height: 250px;
+
+    img {
+      width: 300px;
+      height: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal__close {
+    right: 25px;
+  }
+
+  .implants-descr {
+    padding: 60px 0px;
+  }
+
+  .map-section .map-title {
+    max-width: 310px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .form .input-group {
+    max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 374px) {
+  .footer-col__title {
+    margin-bottom: 10px;
+  }
+
+  .footer-col__menu--services {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .footer-col__list-wrapper {
+    flex-wrap: wrap;
+  }
+
+  .footer-col__list {
+    margin-right: 0;
+    flex-basis: 100%;
+  }
+
+  .footer-col__menu--services {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .map-wrapper__contacts {
+    height: 250px;
+  }
+
+  .footer-col {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .services-wrapper .services-item {
+    width: 300px;
+    height: 350px;
+  }
+
+  .services .services-item__name {
+    width: 300px;
+  }
+
+  .services-wrapper .services-item__img img {
+    height: 230px;
+  }
+}
+
+@media screen and (max-width: 356px) {
+  .hours-section__text span {
+    max-width: 78px;
+    font-size: 13px;
+    margin-right: 10px;
+  }
+
+  .hero-text h1 {
+    font-size: 35px;
+  }
+
+  h2.preventative__title {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 341px) {
+  .modal__close {
+    right: 35px;
+  }
+
+  .container--form {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .form-block {
+    display: flex;
+    justify-content: center;
+  }
+
+  .form-block__wrapper {
+    max-width: 290px;
+  }
+
+  .form .input-group {
+    max-width: 290px;
+  }
+
+  .form__input {
+    max-width: 290px;
+  }
+
+  .form__area {
+    max-width: 290px;
+  }
+
+  .form-button {
+    max-width: 290px;
+  }
+}

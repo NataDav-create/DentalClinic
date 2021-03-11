@@ -1,0 +1,50 @@
+.about-page {
+  background-image: url('../img/about/about-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  &__title {
+    margin-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.about-descr__section {
+  text-align: center;
+  padding: 120px 170px 70px;
+}
+.about-descr__inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-descr__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 100px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+.about-descr__text {
+  text-align: left;
+  max-width: 500px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 19px;
+}
+.about-descr__img {
+  width: 500px;
+  height: 342px;
+  img {
+    width: 500px;
+    height: 342px;
+    object-fit: cover;
+  }
+}

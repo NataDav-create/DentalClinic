@@ -1,0 +1,183 @@
+header {
+  background-color: #fff;
+}
+.top-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 68px;
+  padding-right: 71px;
+  height: 100px;
+  background-color: #fff;
+}
+
+.contacts {
+  &-name {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+  }
+  &-address {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4F4F4F;
+  }
+  &-phone {
+    span {
+      font-style: normal;
+      font-size: 22px;
+      line-height: 26px;
+      color: #4F4F4F;
+    }
+    .contacts-link {
+      font-family: 'Lato', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 17px;
+      color: #000000;
+      transition: all 0.4s;
+      &:hover {
+        color: $primary;
+      }
+
+    }
+  }
+}
+.menu {
+  display: flex;
+  align-items: center;
+  height: 55px;
+  background-color: #fff;
+  border-top: 1px solid #4F4F4F;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    li {
+      & + li {
+        margin-left: 25px;
+      }
+      a {
+        font-family: 'Lato', sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        text-transform: uppercase;
+        color: #000000;
+        transition: all 0.4s;
+        &:hover {
+          color: $primary;
+        }
+
+      }
+    }
+  }
+}
+.menu-item {
+  &.active {
+    a {
+      color: $primary;
+    }
+    
+  }
+  
+}
+
+.header-btn {
+  position: absolute;
+  top: 0;
+  right: 30px;
+  visibility: hidden;
+  opacity: 0;
+  width: 40px;
+  height: 40px;
+  // border: 2px solid #fff;
+  margin-top: 31px;
+  background: rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-btn div {
+  width: 30px;
+  height: 2px;
+  background-color: $primary;
+  margin: 2px 0;
+}
+.mobile__menu {
+  // visibility: hidden;
+  // opacity: 0;
+  height: 100vh;
+  background-color: $primary;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  transition: all .5s;
+  z-index: 1000;
+  .mobile__list {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    .mobile__link {
+      color: #fff;
+      font-size: 16px;
+      padding-bottom: 15px;
+      text-transform: uppercase;
+      font-weight: 400;
+      transition: all 0.4s;
+      &:hover {
+        color: grey;
+      }
+    }
+
+  }
+}
+
+.mobile__menu.active {
+  left: 0;
+}
+.container--menu {
+  position: relative;
+}
+.mobile__close-btn {
+  width: 30px;
+  height: 30px;
+  background-color: transparent;
+  position: absolute;
+  right: 15px;
+  top: 31px;
+  cursor: pointer;
+}
+
+.mobile__close-btn::after,
+.mobile__close-btn::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 30px;
+  background-color: #fff;
+  transform-origin: left;
+}
+
+.mobile__close-btn::after {
+  transform: rotate(45deg);
+}
+
+.mobile__close-btn::before {
+  transform: rotate(-45deg);
+  bottom: 6px;
+}

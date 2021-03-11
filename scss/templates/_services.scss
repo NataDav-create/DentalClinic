@@ -1,0 +1,100 @@
+.services-page {
+  background-image: url('../img/services/service-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  &__title {
+    margin-bottom: 70px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+.services-descr__section {
+  text-align: center;
+  padding: 100px 170px;
+}
+.service-section {
+  padding: 120px 30px 85px;
+  &__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  &__img {
+    width: 530px;
+    height: 370px;
+    img {
+      width: 530px;
+      height: 370px;
+      object-fit: cover;
+    }
+  }
+  &__title {
+    text-align: left;
+    margin-bottom: 55px;
+  }
+}
+.service-description {
+  margin-top: 80px;
+  &__item {
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    width: 378px;
+    height: 65px;
+    border: 1px solid $primary;
+    border-bottom: none;
+    &:last-child {
+      border-bottom: 1px solid $primary;
+    }
+  }
+  &__link {
+    position: relative;
+    background-color: #fff;
+    padding-left: 46px;
+    padding-right: 30px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    transition: all 0.2s;
+    &:hover {
+      color: $primary;
+    }
+    &:before {
+      position: absolute;
+      content: '';
+      background-image: url('../img/services/check.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      left: 0;
+      top: 0;
+      width: 25px;
+      height: 25px;
+    }
+  }
+}
+.form-block {
+  &__wrapper {
+    padding: 20px 0px 30px;
+    text-align: center;
+    background-image: url('../img/services/form.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    .form-name {
+      margin-top: 0;
+      margin-bottom: 0;
+      margin-bottom: 50px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 30px;
+      line-height: 36px;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+.hours-section {
+  padding: 95px 0;
+  &__text {
+    display: flex;
+    // justify-content: space-between;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    span {
+      max-width: 150px;
+      width: 100%;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 20px;
+      line-height: 24px;
+      text-transform: uppercase;
+      margin-right: 20px;
+    }
+  }
+}

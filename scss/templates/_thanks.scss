@@ -1,0 +1,22 @@
+.thanks {
+  height: 100vh;
+  padding: 200px 0;
+  width: 100%;
+  background-image: url('../img/index/main-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  &__title {
+    font-size: 50px;
+    color: #fff;
+  }
+  &__content {
+    text-align: left;
+  }
+  &__page-text {
+    text-align: left;
+  }
+}
+.thanks__text a.thanks__link {
+  text-decoration: underline;
+}
